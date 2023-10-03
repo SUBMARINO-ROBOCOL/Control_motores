@@ -1,0 +1,26 @@
+[1.806s] Invoking command in '/home/ume/Robocol/Sub_codes_2023/sub_ws/src/mov_woc': PYTHONPATH=/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed
+[2.236s] running egg_info
+[2.237s] writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO
+[2.238s] writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt
+[2.238s] writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt
+[2.238s] writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt
+[2.238s] writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt
+[2.243s] reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[2.246s] writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'
+[2.246s] running build
+[2.247s] running build_py
+[2.247s] copying mov_woc/mov1_version_actual_.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc
+[2.248s] running install
+[2.249s] running install_lib
+[2.250s] copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/mov1_version_actual_.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc
+[2.252s] byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/mov1_version_actual_.py to mov1_version_actual_.cpython-310.pyc
+[2.254s] running install_data
+[2.255s] running install_egg_info
+[2.258s] removing '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info' (and everything under it)
+[2.259s] Copying ../../build/mov_woc/mov_woc.egg-info to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info
+[2.260s] running install_scripts
+[2.304s] Installing client script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[2.304s] Installing conversor script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[2.304s] Installing service script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc
+[2.305s] writing list of installed files to '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/install.log'
+[2.359s] Invoked command in '/home/ume/Robocol/Sub_codes_2023/sub_ws/src/mov_woc' returned '0': PYTHONPATH=/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mov_woc build --build-base /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build install --record /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/install.log --single-version-externally-managed

@@ -1,0 +1,577 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (com_interfaces) JobQueued: {'identifier': 'com_interfaces', 'dependencies': OrderedDict()}
+[0.000193] (mov_woc) JobQueued: {'identifier': 'mov_woc', 'dependencies': OrderedDict()}
+[0.000216] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.001138] (com_interfaces) JobStarted: {'identifier': 'com_interfaces'}
+[0.010445] (mov_woc) JobStarted: {'identifier': 'mov_woc'}
+[0.021976] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.035318] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'cmake'}
+[0.035642] (com_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ume/Robocol/Sub_codes_2023/sub_ws/src/com_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces'], 'cwd': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ume'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ume'), ('OLDPWD', '/home/ume/Robocol/Sub_codes_2023'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '2146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ume'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ume'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/ume/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ume/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ume-lamaquina:@/tmp/.ICE-unix/2114,unix/ume-lamaquina:/tmp/.ICE-unix/2114'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d0e8cf43_8191_48bb_84fd_6ce847c02356'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R9Q561'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.266'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/opt/ros/humble')]), 'shell': False}
+[0.099544] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.300199] (-) TimerEvent: {}
+[0.400621] (-) TimerEvent: {}
+[0.415258] (com_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.415853] (com_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.416542] (com_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.416730] (com_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.416856] (com_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.416977] (com_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.417099] (com_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.421314] (com_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500727] (-) TimerEvent: {}
+[0.515885] (com_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.525019] (com_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.525372] (com_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.526052] (com_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.537744] (com_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600816] (-) TimerEvent: {}
+[0.701140] (-) TimerEvent: {}
+[0.748593] (com_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.801249] (-) TimerEvent: {}
+[0.901655] (-) TimerEvent: {}
+[0.924069] (com_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.001762] (-) TimerEvent: {}
+[1.012682] (com_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.024627] (com_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.045018] (com_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.081942] (com_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101866] (-) TimerEvent: {}
+[1.130471] (com_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202008] (-) TimerEvent: {}
+[1.294566] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build', 'install', '--record', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/ume/Robocol/Sub_codes_2023/sub_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ume', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ume', 'OLDPWD': '/home/ume/Robocol/Sub_codes_2023', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '2146', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ume', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ume', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/ume/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ume/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ume-lamaquina:@/tmp/.ICE-unix/2114,unix/ume-lamaquina:/tmp/.ICE-unix/2114', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d0e8cf43_8191_48bb_84fd_6ce847c02356', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R9Q561', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.266', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/prefix_override:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces'}, 'shell': False}
+[1.302131] (-) TimerEvent: {}
+[1.402603] (-) TimerEvent: {}
+[1.430687] (com_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.467183] (mov_woc) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mov_woc', 'build', '--build-base', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build', 'install', '--record', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/install.log', '--single-version-externally-managed'], 'cwd': '/home/ume/Robocol/Sub_codes_2023/sub_ws/src/mov_woc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ume', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ume', 'OLDPWD': '/home/ume/Robocol/Sub_codes_2023', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'SYSTEMD_EXEC_PID': '2146', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ume', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ume', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/ume/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ume/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ume-lamaquina:@/tmp/.ICE-unix/2114,unix/ume-lamaquina:/tmp/.ICE-unix/2114', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d0e8cf43_8191_48bb_84fd_6ce847c02356', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R9Q561', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.266', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/prefix_override:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces'}, 'shell': False}
+[1.502718] (-) TimerEvent: {}
+[1.603071] (-) TimerEvent: {}
+[1.703390] (-) TimerEvent: {}
+[1.706587] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.707708] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.707992] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.708305] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.708498] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.708717] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.708854] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.712781] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.716091] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.717345] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.717695] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.717956] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.718120] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build\n'}
+[1.718288] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib\n'}
+[1.718418] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.718615] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.718812] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.718956] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.720093] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.720772] (py_srvcli) StdoutLine: {'line': b'copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.721096] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc\n'}
+[1.721361] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.722486] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index\n'}
+[1.722895] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.723144] (py_srvcli) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.723296] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.723429] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/share/py_srvcli\n'}
+[1.723559] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.726082] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[1.727397] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.765705] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/py_srvcli/install.log'\n"}
+[1.803519] (-) TimerEvent: {}
+[1.807449] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.825449] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.851120] (mov_woc) StdoutLine: {'line': b'running egg_info\n'}
+[1.852383] (mov_woc) StdoutLine: {'line': b'creating ../../build/mov_woc/mov_woc.egg-info\n'}
+[1.852714] (mov_woc) StdoutLine: {'line': b'writing ../../build/mov_woc/mov_woc.egg-info/PKG-INFO\n'}
+[1.853023] (mov_woc) StdoutLine: {'line': b'writing dependency_links to ../../build/mov_woc/mov_woc.egg-info/dependency_links.txt\n'}
+[1.853182] (mov_woc) StdoutLine: {'line': b'writing entry points to ../../build/mov_woc/mov_woc.egg-info/entry_points.txt\n'}
+[1.853368] (mov_woc) StdoutLine: {'line': b'writing requirements to ../../build/mov_woc/mov_woc.egg-info/requires.txt\n'}
+[1.853526] (mov_woc) StdoutLine: {'line': b'writing top-level names to ../../build/mov_woc/mov_woc.egg-info/top_level.txt\n'}
+[1.855561] (mov_woc) StdoutLine: {'line': b"writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'\n"}
+[1.858262] (mov_woc) StdoutLine: {'line': b"reading manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'\n"}
+[1.859578] (mov_woc) StdoutLine: {'line': b"writing manifest file '../../build/mov_woc/mov_woc.egg-info/SOURCES.txt'\n"}
+[1.859827] (mov_woc) StdoutLine: {'line': b'running build\n'}
+[1.859913] (mov_woc) StdoutLine: {'line': b'running build_py\n'}
+[1.860038] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build\n'}
+[1.860226] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib\n'}
+[1.860364] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[1.860537] (mov_woc) StdoutLine: {'line': b'copying mov_woc/__init__.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[1.860651] (mov_woc) StdoutLine: {'line': b'copying mov_woc/coral.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[1.860821] (mov_woc) StdoutLine: {'line': b'copying mov_woc/client.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[1.861045] (mov_woc) StdoutLine: {'line': b'copying mov_woc/mov1.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc\n'}
+[1.861239] (mov_woc) StdoutLine: {'line': b'running install\n'}
+[1.861862] (mov_woc) StdoutLine: {'line': b'running install_lib\n'}
+[1.863212] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[1.863401] (mov_woc) StdoutLine: {'line': b'copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/__init__.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[1.863540] (mov_woc) StdoutLine: {'line': b'copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/coral.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[1.863737] (mov_woc) StdoutLine: {'line': b'copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/client.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[1.863917] (mov_woc) StdoutLine: {'line': b'copying /home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/build/lib/mov_woc/mov1.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc\n'}
+[1.864720] (mov_woc) StdoutLine: {'line': b'byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/__init__.py to __init__.cpython-310.pyc\n'}
+[1.865055] (mov_woc) StdoutLine: {'line': b'byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/coral.py to coral.cpython-310.pyc\n'}
+[1.866026] (mov_woc) StdoutLine: {'line': b'byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/client.py to client.cpython-310.pyc\n'}
+[1.866759] (mov_woc) StdoutLine: {'line': b'byte-compiling /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc/mov1.py to mov1.cpython-310.pyc\n'}
+[1.868003] (mov_woc) StdoutLine: {'line': b'running install_data\n'}
+[1.869123] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/ament_index\n'}
+[1.869358] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/ament_index/resource_index\n'}
+[1.869578] (mov_woc) StdoutLine: {'line': b'creating /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/ament_index/resource_index/packages\n'}
+[1.869742] (mov_woc) StdoutLine: {'line': b'copying resource/mov_woc -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/ament_index/resource_index/packages\n'}
+[1.869893] (mov_woc) StdoutLine: {'line': b'copying package.xml -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc\n'}
+[1.870017] (mov_woc) StdoutLine: {'line': b'copying launch/sub_launch.py -> /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/share/mov_woc\n'}
+[1.870135] (mov_woc) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.872608] (mov_woc) StdoutLine: {'line': b'Copying ../../build/mov_woc/mov_woc.egg-info to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages/mov_woc-0.0.0-py3.10.egg-info\n'}
+[1.874064] (mov_woc) StdoutLine: {'line': b'running install_scripts\n'}
+[1.899790] (mov_woc) StdoutLine: {'line': b'Installing client script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[1.900065] (mov_woc) StdoutLine: {'line': b'Installing conversor script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[1.900263] (mov_woc) StdoutLine: {'line': b'Installing service script to /home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/mov_woc\n'}
+[1.900565] (mov_woc) StdoutLine: {'line': b"writing list of installed files to '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/mov_woc/install.log'\n"}
+[1.903634] (-) TimerEvent: {}
+[1.941005] (mov_woc) CommandEnded: {'returncode': 0}
+[1.952432] (mov_woc) JobEnded: {'identifier': 'mov_woc', 'rc': 0}
+[2.002553] (com_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.003708] (-) TimerEvent: {}
+[2.103952] (-) TimerEvent: {}
+[2.204279] (-) TimerEvent: {}
+[2.304624] (-) TimerEvent: {}
+[2.404918] (-) TimerEvent: {}
+[2.505173] (-) TimerEvent: {}
+[2.518741] (com_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.605275] (-) TimerEvent: {}
+[2.705610] (-) TimerEvent: {}
+[2.727730] (com_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.760858] (com_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[2.763151] (com_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.796411] (com_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[2.796698] (com_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.796780] (com_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.796849] (com_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.805731] (-) TimerEvent: {}
+[2.821284] (com_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.893070] (com_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.905873] (-) TimerEvent: {}
+[2.923667] (com_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.925585] (com_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.929183] (com_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.980884] (com_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.983864] (com_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces\n'}
+[2.997125] (com_interfaces) CommandEnded: {'returncode': 0}
+[2.998332] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'build'}
+[2.998411] (com_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ume'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ume'), ('OLDPWD', '/home/ume/Robocol/Sub_codes_2023'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '2146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ume'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ume'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/ume/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ume/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ume-lamaquina:@/tmp/.ICE-unix/2114,unix/ume-lamaquina:/tmp/.ICE-unix/2114'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d0e8cf43_8191_48bb_84fd_6ce847c02356'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R9Q561'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.266'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/opt/ros/humble')]), 'shell': False}
+[3.005985] (-) TimerEvent: {}
+[3.041373] (com_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.056825] (com_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.071605] (com_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_com_interfaces\n'}
+[3.106090] (-) TimerEvent: {}
+[3.206508] (-) TimerEvent: {}
+[3.306825] (-) TimerEvent: {}
+[3.397222] (com_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.397766] (com_interfaces) StdoutLine: {'line': b'creating com_interfaces.egg-info\n'}
+[3.397977] (com_interfaces) StdoutLine: {'line': b'writing com_interfaces.egg-info/PKG-INFO\n'}
+[3.398152] (com_interfaces) StdoutLine: {'line': b'writing dependency_links to com_interfaces.egg-info/dependency_links.txt\n'}
+[3.398313] (com_interfaces) StdoutLine: {'line': b'writing top-level names to com_interfaces.egg-info/top_level.txt\n'}
+[3.399695] (com_interfaces) StdoutLine: {'line': b"writing manifest file 'com_interfaces.egg-info/SOURCES.txt'\n"}
+[3.402050] (com_interfaces) StdoutLine: {'line': b"reading manifest file 'com_interfaces.egg-info/SOURCES.txt'\n"}
+[3.402685] (com_interfaces) StdoutLine: {'line': b"writing manifest file 'com_interfaces.egg-info/SOURCES.txt'\n"}
+[3.406935] (-) TimerEvent: {}
+[3.436412] (com_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_com_interfaces_egg\n'}
+[3.507055] (-) TimerEvent: {}
+[3.607369] (-) TimerEvent: {}
+[3.707670] (-) TimerEvent: {}
+[3.807964] (-) TimerEvent: {}
+[3.908282] (-) TimerEvent: {}
+[4.008601] (-) TimerEvent: {}
+[4.108900] (-) TimerEvent: {}
+[4.155878] (com_interfaces) StdoutLine: {'line': b'[  3%] Built target com_interfaces__cpp\n'}
+[4.172310] (com_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.209000] (-) TimerEvent: {}
+[4.218845] (com_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.246303] (com_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.260758] (com_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_c.dir/rosidl_generator_c/com_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[4.309114] (-) TimerEvent: {}
+[4.376657] (com_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_c.dir/rosidl_generator_c/com_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[4.409230] (-) TimerEvent: {}
+[4.464298] (com_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_c.dir/rosidl_generator_c/com_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[4.509329] (-) TimerEvent: {}
+[4.567873] (com_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_c.dir/rosidl_generator_c/com_interfaces/srv/detail/cam_and_color__functions.c.o\x1b[0m\n'}
+[4.609437] (-) TimerEvent: {}
+[4.670735] (com_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_c.dir/rosidl_generator_c/com_interfaces/srv/detail/capture2model__functions.c.o\x1b[0m\n'}
+[4.709540] (-) TimerEvent: {}
+[4.769809] (com_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libcom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.809647] (-) TimerEvent: {}
+[4.831800] (com_interfaces) StdoutLine: {'line': b'[ 17%] Built target com_interfaces__rosidl_generator_c\n'}
+[4.847481] (com_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.909753] (-) TimerEvent: {}
+[4.948048] (com_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.009877] (-) TimerEvent: {}
+[5.110233] (-) TimerEvent: {}
+[5.210572] (-) TimerEvent: {}
+[5.236670] (com_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[5.310705] (-) TimerEvent: {}
+[5.411011] (-) TimerEvent: {}
+[5.412901] (com_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[5.511136] (-) TimerEvent: {}
+[5.534639] (com_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[5.611238] (-) TimerEvent: {}
+[5.711653] (-) TimerEvent: {}
+[5.812011] (-) TimerEvent: {}
+[5.912427] (-) TimerEvent: {}
+[6.011806] (com_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[6.012509] (-) TimerEvent: {}
+[6.048824] (com_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.053191] (com_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.112651] (-) TimerEvent: {}
+[6.213152] (-) TimerEvent: {}
+[6.254554] (com_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[6.313280] (-) TimerEvent: {}
+[6.413787] (-) TimerEvent: {}
+[6.514270] (-) TimerEvent: {}
+[6.562647] (com_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com_interfaces/srv/cam_and_color__type_support.cpp.o\x1b[0m\n'}
+[6.614393] (-) TimerEvent: {}
+[6.714800] (-) TimerEvent: {}
+[6.717189] (com_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[6.777012] (com_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.814914] (-) TimerEvent: {}
+[6.915359] (-) TimerEvent: {}
+[7.015832] (-) TimerEvent: {}
+[7.018342] (com_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.115980] (-) TimerEvent: {}
+[7.118331] (com_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/com_interfaces/srv/capture2model__type_support.cpp.o\x1b[0m\n'}
+[7.216087] (-) TimerEvent: {}
+[7.316471] (-) TimerEvent: {}
+[7.389020] (com_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[7.416613] (-) TimerEvent: {}
+[7.517106] (-) TimerEvent: {}
+[7.537013] (com_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com_interfaces/srv/detail/cam_and_color__type_support.cpp.o\x1b[0m\n'}
+[7.617218] (-) TimerEvent: {}
+[7.627209] (com_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libcom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.717346] (-) TimerEvent: {}
+[7.726453] (com_interfaces) StdoutLine: {'line': b'[ 44%] Built target com_interfaces__rosidl_typesupport_cpp\n'}
+[7.742862] (com_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.817467] (-) TimerEvent: {}
+[7.865331] (com_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com_interfaces/srv/detail/dds_fastrtps/cam_and_color__type_support.cpp.o\x1b[0m\n'}
+[7.917576] (-) TimerEvent: {}
+[8.018044] (-) TimerEvent: {}
+[8.067207] (com_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com_interfaces/srv/detail/cam_and_color__type_support_c.cpp.o\x1b[0m\n'}
+[8.118154] (-) TimerEvent: {}
+[8.218501] (-) TimerEvent: {}
+[8.288912] (com_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/com_interfaces/srv/detail/capture2model__type_support.cpp.o\x1b[0m\n'}
+[8.318610] (-) TimerEvent: {}
+[8.418944] (-) TimerEvent: {}
+[8.519291] (-) TimerEvent: {}
+[8.619642] (-) TimerEvent: {}
+[8.652251] (com_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/com_interfaces/srv/detail/dds_fastrtps/capture2model__type_support.cpp.o\x1b[0m\n'}
+[8.712201] (com_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/com_interfaces/srv/detail/capture2model__type_support_c.cpp.o\x1b[0m\n'}
+[8.719760] (-) TimerEvent: {}
+[8.820959] (-) TimerEvent: {}
+[8.921408] (-) TimerEvent: {}
+[8.932439] (com_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[9.004689] (com_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[9.021523] (-) TimerEvent: {}
+[9.057300] (com_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.070015] (com_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[9.121670] (-) TimerEvent: {}
+[9.140446] (com_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com_interfaces/srv/detail/cam_and_color__type_support.c.o\x1b[0m\n'}
+[9.187126] (com_interfaces) StdoutLine: {'line': b'[ 61%] Built target com_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[9.203363] (com_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.208026] (com_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/com_interfaces/srv/detail/capture2model__type_support.c.o\x1b[0m\n'}
+[9.221767] (-) TimerEvent: {}
+[9.277040] (com_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libcom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.321882] (-) TimerEvent: {}
+[9.339044] (com_interfaces) StdoutLine: {'line': b'[ 66%] Built target com_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.415410] (com_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libcom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.421990] (-) TimerEvent: {}
+[9.430513] (com_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.522121] (-) TimerEvent: {}
+[9.545222] (com_interfaces) StdoutLine: {'line': b'[ 69%] Built target com_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.578571] (com_interfaces) StdoutLine: {'line': b'[ 69%] Built target com_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.622252] (-) TimerEvent: {}
+[9.722547] (-) TimerEvent: {}
+[9.779585] (com_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/com_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[9.780012] (com_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/com_interfaces/srv/cam_and_color__type_support.cpp.o\x1b[0m\n'}
+[9.780209] (com_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/com_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[9.780445] (com_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/com_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.822677] (-) TimerEvent: {}
+[9.833054] (com_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/com_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/com_interfaces/srv/capture2model__type_support.cpp.o\x1b[0m\n'}
+[9.869448] (com_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libcom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.919069] (com_interfaces) StdoutLine: {'line': b'[ 79%] Built target com_interfaces__rosidl_typesupport_c\n'}
+[9.922775] (-) TimerEvent: {}
+[9.939601] (com_interfaces) StdoutLine: {'line': b'[ 79%] Built target com_interfaces\n'}
+[9.960930] (com_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.022874] (-) TimerEvent: {}
+[10.123181] (-) TimerEvent: {}
+[10.223482] (-) TimerEvent: {}
+[10.323774] (-) TimerEvent: {}
+[10.424066] (-) TimerEvent: {}
+[10.524363] (-) TimerEvent: {}
+[10.624662] (-) TimerEvent: {}
+[10.724960] (-) TimerEvent: {}
+[10.825260] (-) TimerEvent: {}
+[10.925581] (-) TimerEvent: {}
+[10.969706] (com_interfaces) StdoutLine: {'line': b'[ 80%] Built target com_interfaces__py\n'}
+[10.994211] (com_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_py.dir/rosidl_generator_py/com_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[10.994567] (com_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_py.dir/rosidl_generator_py/com_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[10.994762] (com_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_py.dir/rosidl_generator_py/com_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[10.994987] (com_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_py.dir/rosidl_generator_py/com_interfaces/srv/_cam_and_color_s.c.o\x1b[0m\n'}
+[11.025704] (-) TimerEvent: {}
+[11.126103] (-) TimerEvent: {}
+[11.214760] (com_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_generator_py.dir/rosidl_generator_py/com_interfaces/srv/_capture2model_s.c.o\x1b[0m\n'}
+[11.226230] (-) TimerEvent: {}
+[11.326536] (-) TimerEvent: {}
+[11.333309] (com_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/com_interfaces/libcom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.380688] (com_interfaces) StdoutLine: {'line': b'[ 90%] Built target com_interfaces__rosidl_generator_py\n'}
+[11.405106] (com_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.406532] (com_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.409820] (com_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/com_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.426667] (-) TimerEvent: {}
+[11.527236] (-) TimerEvent: {}
+[11.559912] (com_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.609247] (com_interfaces) StdoutLine: {'line': b'[ 96%] Built target com_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[11.627345] (-) TimerEvent: {}
+[11.634312] (com_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.636862] (com_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.680955] (com_interfaces) StdoutLine: {'line': b'[100%] Built target com_interfaces__rosidl_typesupport_c__pyext\n'}
+[11.682668] (com_interfaces) StdoutLine: {'line': b'[100%] Built target com_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.695721] (com_interfaces) CommandEnded: {'returncode': 0}
+[11.727452] (-) TimerEvent: {}
+[11.827746] (-) TimerEvent: {}
+[11.844477] (com_interfaces) JobProgress: {'identifier': 'com_interfaces', 'progress': 'install'}
+[11.854098] (com_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces'], 'cwd': '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ume'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ume'), ('OLDPWD', '/home/ume/Robocol/Sub_codes_2023'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('SYSTEMD_EXEC_PID', '2146'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ume'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ume'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/ume/CoppeliaSim_Edu_V4_1_0_Ubuntu16_04'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ume/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ume-lamaquina:@/tmp/.ICE-unix/2114,unix/ume-lamaquina:/tmp/.ICE-unix/2114'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d0e8cf43_8191_48bb_84fd_6ce847c02356'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.R9Q561'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.266'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ume/Robocol/Sub_codes_2023/sub_ws/build/com_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc/lib/python3.10/site-packages:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/py_srvcli:/home/ume/Robocol/Sub_codes_2023/sub_ws/install/mov_woc:/opt/ros/humble')]), 'shell': False}
+[11.862335] (com_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.867984] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/rosidl_interfaces/com_interfaces\n'}
+[11.868182] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.868330] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.868466] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.868707] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.h\n'}
+[11.868890] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.c\n'}
+[11.869022] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.h\n'}
+[11.869188] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__functions.c\n'}
+[11.869343] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.h\n'}
+[11.869473] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__functions.h\n'}
+[11.869646] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.h\n'}
+[11.869792] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.h\n'}
+[11.869938] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.870112] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.h\n'}
+[11.870267] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.h\n'}
+[11.870411] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.870585] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.870731] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[11.870852] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.h\n'}
+[11.870970] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[11.871123] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[11.871375] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[11.871611] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.c\n'}
+[11.871823] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__functions.h\n'}
+[11.872009] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.h\n'}
+[11.872200] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.c\n'}
+[11.872385] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.h\n'}
+[11.872571] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.h\n'}
+[11.872761] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__functions.h\n'}
+[11.872946] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.h\n'}
+[11.873076] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.h\n'}
+[11.873253] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.h\n'}
+[11.873397] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.sh\n'}
+[11.873584] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/library_path.dsv\n'}
+[11.873782] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_c.so\n'}
+[11.874432] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_c.so" to ""\n'}
+[11.874661] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.874863] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.875053] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.875241] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[11.875436] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[11.875643] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.875822] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.875961] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.876132] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_c.h\n'}
+[11.876291] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_c.h\n'}
+[11.876459] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[11.876623] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[11.876835] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.877056] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.877238] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.877435] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.877614] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__builder.hpp\n'}
+[11.877801] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__traits.hpp\n'}
+[11.877965] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__traits.hpp\n'}
+[11.878176] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__struct.hpp\n'}
+[11.878376] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__struct.hpp\n'}
+[11.878556] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__builder.hpp\n'}
+[11.878773] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/sphere.hpp\n'}
+[11.878963] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/num.hpp\n'}
+[11.879141] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.879302] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.879510] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[11.879687] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[11.879867] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__builder.hpp\n'}
+[11.880046] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__traits.hpp\n'}
+[11.880228] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__traits.hpp\n'}
+[11.880407] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__struct.hpp\n'}
+[11.880567] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__builder.hpp\n'}
+[11.880746] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[11.880907] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__struct.hpp\n'}
+[11.881104] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/add_three_ints.hpp\n'}
+[11.881295] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/cam_and_color.hpp\n'}
+[11.881475] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/capture2model.hpp\n'}
+[11.881688] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.881869] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.882076] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.882267] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/dds_fastrtps\n'}
+[11.882449] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.882630] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.882794] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.882974] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.883152] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.883324] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/dds_fastrtps\n'}
+[11.883494] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.883652] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.883878] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.884038] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.884220] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.884402] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.884584] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.884766] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.884943] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.c\n'}
+[11.885145] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[11.885328] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[11.885510] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.c\n'}
+[11.885692] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.885877] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.886042] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.886178] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.c\n'}
+[11.886404] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.c\n'}
+[11.886548] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_c.h\n'}
+[11.886745] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_c.h\n'}
+[11.886905] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[11.887098] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[11.887255] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.887421] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.887606] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_c.so\n'}
+[11.887831] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[11.888047] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces\n'}
+[11.888233] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg\n'}
+[11.888396] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail\n'}
+[11.888596] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.888756] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.888974] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[11.889158] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/msg/detail/num__type_support.cpp\n'}
+[11.889339] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv\n'}
+[11.889523] (com_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail\n'}
+[11.889683] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[11.889863] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__type_support.cpp\n'}
+[11.890029] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.890172] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/cam_and_color__type_support.cpp\n'}
+[11.890373] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/capture2model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.890523] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/include/com_interfaces/com_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.890689] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.890934] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.891129] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.891657] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[11.891851] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.sh\n'}
+[11.892045] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/pythonpath.dsv\n'}
+[11.892230] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info\n'}
+[11.892427] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.892621] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.892829] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.893031] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.893223] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces\n'}
+[11.893410] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.893605] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/__init__.py\n'}
+[11.893786] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.893983] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.894259] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg\n'}
+[11.894461] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere_s.c\n'}
+[11.894648] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/__init__.py\n'}
+[11.894860] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num_s.c\n'}
+[11.895054] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num.py\n'}
+[11.895235] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere.py\n'}
+[11.895412] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.895601] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.895810] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/_com_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[11.896106] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/libcom_interfaces__rosidl_generator_py.so\n'}
+[11.896340] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv\n'}
+[11.896535] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints_s.c\n'}
+[11.896727] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/__init__.py\n'}
+[11.896902] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model.py\n'}
+[11.897092] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model_s.c\n'}
+[11.897282] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints.py\n'}
+[11.897470] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color.py\n'}
+[11.897675] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color_s.c\n'}
+[11.927874] (-) TimerEvent: {}
+[11.943829] (com_interfaces) StdoutLine: {'line': b"Listing '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces'...\n"}
+[11.944051] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/__init__.py'...\n"}
+[11.944136] (com_interfaces) StdoutLine: {'line': b"Listing '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg'...\n"}
+[11.944231] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/__init__.py'...\n"}
+[11.944296] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_num.py'...\n"}
+[11.944360] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/msg/_sphere.py'...\n"}
+[11.944423] (com_interfaces) StdoutLine: {'line': b"Listing '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv'...\n"}
+[11.944484] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/__init__.py'...\n"}
+[11.944577] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_add_three_ints.py'...\n"}
+[11.944638] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_cam_and_color.py'...\n"}
+[11.944699] (com_interfaces) StdoutLine: {'line': b"Compiling '/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/srv/_capture2model.py'...\n"}
+[11.949563] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.950025] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.950301] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.950791] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.951077] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.951582] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/local/lib/python3.10/dist-packages/com_interfaces/com_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.951784] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_py.so\n'}
+[11.952228] (com_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/lib/libcom_interfaces__rosidl_generator_py.so" to ""\n'}
+[11.952447] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.idl\n'}
+[11.952639] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.idl\n'}
+[11.952820] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.idl\n'}
+[11.952990] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.idl\n'}
+[11.953174] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.idl\n'}
+[11.953359] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Num.msg\n'}
+[11.953550] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/msg/Sphere.msg\n'}
+[11.953738] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts.srv\n'}
+[11.953924] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Request.msg\n'}
+[11.954106] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/AddThreeInts_Response.msg\n'}
+[11.954290] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor.srv\n'}
+[11.954475] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Request.msg\n'}
+[11.954653] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/CamAndColor_Response.msg\n'}
+[11.954854] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model.srv\n'}
+[11.955033] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Request.msg\n'}
+[11.955248] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/srv/Capture2model_Response.msg\n'}
+[11.955521] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/package_run_dependencies/com_interfaces\n'}
+[11.955732] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/parent_prefix_path/com_interfaces\n'}
+[11.955888] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.sh\n'}
+[11.956038] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.956187] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.sh\n'}
+[11.956349] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/environment/path.dsv\n'}
+[11.956524] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.bash\n'}
+[11.956709] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.sh\n'}
+[11.956894] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.zsh\n'}
+[11.957090] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/local_setup.dsv\n'}
+[11.957283] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.dsv\n'}
+[11.957524] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/ament_index/resource_index/packages/com_interfaces\n'}
+[11.957789] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.958048] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.958345] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.958587] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.958843] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.959110] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.959390] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.959633] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.959864] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.960123] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.960352] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.960666] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.960889] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.961141] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.961362] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.961600] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport.cmake\n'}
+[11.961793] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/export_com_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.962051] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.962235] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.962463] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.962676] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.962958] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.963160] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.963345] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.963627] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig.cmake\n'}
+[11.963867] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/cmake/com_interfacesConfig-version.cmake\n'}
+[11.964058] (com_interfaces) StdoutLine: {'line': b'-- Installing: /home/ume/Robocol/Sub_codes_2023/sub_ws/install/com_interfaces/share/com_interfaces/package.xml\n'}
+[11.971172] (com_interfaces) CommandEnded: {'returncode': 0}
+[12.027962] (-) TimerEvent: {}
+[12.130261] (-) TimerEvent: {}
+[12.142174] (com_interfaces) JobEnded: {'identifier': 'com_interfaces', 'rc': 0}
+[12.143587] (-) EventReactorShutdown: {}
